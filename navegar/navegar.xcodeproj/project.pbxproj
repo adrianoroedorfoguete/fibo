@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4C8FC1828D1295D0063C209 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8FC1728D1295D0063C209 /* AppDelegate.swift */; };
+		C4C8FC1A28D1295D0063C209 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8FC1928D1295D0063C209 /* SceneDelegate.swift */; };
+		C4C8FC1C28D1295D0063C209 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8FC1B28D1295D0063C209 /* ViewController.swift */; };
+		C4C8FC1F28D1295D0063C209 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C8FC1D28D1295D0063C209 /* Main.storyboard */; };
+		C4C8FC2128D1295E0063C209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4C8FC2028D1295E0063C209 /* Assets.xcassets */; };
+		C4C8FC2428D1295E0063C209 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C8FC2228D1295E0063C209 /* LaunchScreen.storyboard */; };
+		C4C8FC2F28D1295E0063C209 /* navegarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8FC2E28D1295E0063C209 /* navegarTests.swift */; };
+		C4C8FC3928D1295E0063C209 /* navegarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8FC3828D1295E0063C209 /* navegarUITests.swift */; };
+		C4C8FC3B28D1295E0063C209 /* navegarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8FC3A28D1295E0063C209 /* navegarUITestsLaunchTests.swift */; };
+		C4C8FC4828D136E90063C209 /* orelha.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8FC4728D136E90063C209 /* orelha.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4C8FC2B28D1295E0063C209 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4C8FC0C28D1295D0063C209 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4C8FC1328D1295D0063C209;
+			remoteInfo = navegar;
+		};
+		C4C8FC3528D1295E0063C209 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4C8FC0C28D1295D0063C209 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4C8FC1328D1295D0063C209;
+			remoteInfo = navegar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4C8FC1428D1295D0063C209 /* navegar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navegar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4C8FC1728D1295D0063C209 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4C8FC1928D1295D0063C209 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C4C8FC1B28D1295D0063C209 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4C8FC1E28D1295D0063C209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4C8FC2028D1295E0063C209 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4C8FC2328D1295E0063C209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4C8FC2528D1295E0063C209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4C8FC2A28D1295E0063C209 /* navegarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = navegarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4C8FC2E28D1295E0063C209 /* navegarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navegarTests.swift; sourceTree = "<group>"; };
+		C4C8FC3428D1295E0063C209 /* navegarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = navegarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4C8FC3828D1295E0063C209 /* navegarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navegarUITests.swift; sourceTree = "<group>"; };
+		C4C8FC3A28D1295E0063C209 /* navegarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navegarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C4C8FC4728D136E90063C209 /* orelha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orelha.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4C8FC1128D1295D0063C209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4C8FC2728D1295E0063C209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4C8FC3128D1295E0063C209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4C8FC0B28D1295D0063C209 = {
+			isa = PBXGroup;
+			children = (
+				C4C8FC4728D136E90063C209 /* orelha.swift */,
+				C4C8FC1628D1295D0063C209 /* navegar */,
+				C4C8FC2D28D1295E0063C209 /* navegarTests */,
+				C4C8FC3728D1295E0063C209 /* navegarUITests */,
+				C4C8FC1528D1295D0063C209 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4C8FC1528D1295D0063C209 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4C8FC1428D1295D0063C209 /* navegar.app */,
+				C4C8FC2A28D1295E0063C209 /* navegarTests.xctest */,
+				C4C8FC3428D1295E0063C209 /* navegarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4C8FC1628D1295D0063C209 /* navegar */ = {
+			isa = PBXGroup;
+			children = (
+				C4C8FC1728D1295D0063C209 /* AppDelegate.swift */,
+				C4C8FC1928D1295D0063C209 /* SceneDelegate.swift */,
+				C4C8FC1B28D1295D0063C209 /* ViewController.swift */,
+				C4C8FC1D28D1295D0063C209 /* Main.storyboard */,
+				C4C8FC2028D1295E0063C209 /* Assets.xcassets */,
+				C4C8FC2228D1295E0063C209 /* LaunchScreen.storyboard */,
+				C4C8FC2528D1295E0063C209 /* Info.plist */,
+			);
+			path = navegar;
+			sourceTree = "<group>";
+		};
+		C4C8FC2D28D1295E0063C209 /* navegarTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4C8FC2E28D1295E0063C209 /* navegarTests.swift */,
+			);
+			path = navegarTests;
+			sourceTree = "<group>";
+		};
+		C4C8FC3728D1295E0063C209 /* navegarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4C8FC3828D1295E0063C209 /* navegarUITests.swift */,
+				C4C8FC3A28D1295E0063C209 /* navegarUITestsLaunchTests.swift */,
+			);
+			path = navegarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4C8FC1328D1295D0063C209 /* navegar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4C8FC3E28D1295E0063C209 /* Build configuration list for PBXNativeTarget "navegar" */;
+			buildPhases = (
+				C4C8FC1028D1295D0063C209 /* Sources */,
+				C4C8FC1128D1295D0063C209 /* Frameworks */,
+				C4C8FC1228D1295D0063C209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = navegar;
+			productName = navegar;
+			productReference = C4C8FC1428D1295D0063C209 /* navegar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4C8FC2928D1295E0063C209 /* navegarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4C8FC4128D1295E0063C209 /* Build configuration list for PBXNativeTarget "navegarTests" */;
+			buildPhases = (
+				C4C8FC2628D1295E0063C209 /* Sources */,
+				C4C8FC2728D1295E0063C209 /* Frameworks */,
+				C4C8FC2828D1295E0063C209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4C8FC2C28D1295E0063C209 /* PBXTargetDependency */,
+			);
+			name = navegarTests;
+			productName = navegarTests;
+			productReference = C4C8FC2A28D1295E0063C209 /* navegarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4C8FC3328D1295E0063C209 /* navegarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4C8FC4428D1295E0063C209 /* Build configuration list for PBXNativeTarget "navegarUITests" */;
+			buildPhases = (
+				C4C8FC3028D1295E0063C209 /* Sources */,
+				C4C8FC3128D1295E0063C209 /* Frameworks */,
+				C4C8FC3228D1295E0063C209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4C8FC3628D1295E0063C209 /* PBXTargetDependency */,
+			);
+			name = navegarUITests;
+			productName = navegarUITests;
+			productReference = C4C8FC3428D1295E0063C209 /* navegarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4C8FC0C28D1295D0063C209 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C4C8FC1328D1295D0063C209 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					C4C8FC2928D1295E0063C209 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C4C8FC1328D1295D0063C209;
+					};
+					C4C8FC3328D1295E0063C209 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C4C8FC1328D1295D0063C209;
+					};
+				};
+			};
+			buildConfigurationList = C4C8FC0F28D1295D0063C209 /* Build configuration list for PBXProject "navegar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4C8FC0B28D1295D0063C209;
+			productRefGroup = C4C8FC1528D1295D0063C209 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4C8FC1328D1295D0063C209 /* navegar */,
+				C4C8FC2928D1295E0063C209 /* navegarTests */,
+				C4C8FC3328D1295E0063C209 /* navegarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4C8FC1228D1295D0063C209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C8FC2428D1295E0063C209 /* LaunchScreen.storyboard in Resources */,
+				C4C8FC2128D1295E0063C209 /* Assets.xcassets in Resources */,
+				C4C8FC1F28D1295D0063C209 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4C8FC2828D1295E0063C209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4C8FC3228D1295E0063C209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4C8FC1028D1295D0063C209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C8FC1C28D1295D0063C209 /* ViewController.swift in Sources */,
+				C4C8FC1828D1295D0063C209 /* AppDelegate.swift in Sources */,
+				C4C8FC4828D136E90063C209 /* orelha.swift in Sources */,
+				C4C8FC1A28D1295D0063C209 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4C8FC2628D1295E0063C209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C8FC2F28D1295E0063C209 /* navegarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4C8FC3028D1295E0063C209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C8FC3928D1295E0063C209 /* navegarUITests.swift in Sources */,
+				C4C8FC3B28D1295E0063C209 /* navegarUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4C8FC2C28D1295E0063C209 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4C8FC1328D1295D0063C209 /* navegar */;
+			targetProxy = C4C8FC2B28D1295E0063C209 /* PBXContainerItemProxy */;
+		};
+		C4C8FC3628D1295E0063C209 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4C8FC1328D1295D0063C209 /* navegar */;
+			targetProxy = C4C8FC3528D1295E0063C209 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4C8FC1D28D1295D0063C209 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4C8FC1E28D1295D0063C209 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4C8FC2228D1295E0063C209 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4C8FC2328D1295E0063C209 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4C8FC3C28D1295E0063C209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4C8FC3D28D1295E0063C209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4C8FC3F28D1295E0063C209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = navegar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adrianoisabella.navegar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4C8FC4028D1295E0063C209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = navegar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adrianoisabella.navegar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4C8FC4228D1295E0063C209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adrianoisabella.navegarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/navegar.app/navegar";
+			};
+			name = Debug;
+		};
+		C4C8FC4328D1295E0063C209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adrianoisabella.navegarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/navegar.app/navegar";
+			};
+			name = Release;
+		};
+		C4C8FC4528D1295E0063C209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adrianoisabella.navegarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = navegar;
+			};
+			name = Debug;
+		};
+		C4C8FC4628D1295E0063C209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adrianoisabella.navegarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = navegar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4C8FC0F28D1295D0063C209 /* Build configuration list for PBXProject "navegar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4C8FC3C28D1295E0063C209 /* Debug */,
+				C4C8FC3D28D1295E0063C209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4C8FC3E28D1295E0063C209 /* Build configuration list for PBXNativeTarget "navegar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4C8FC3F28D1295E0063C209 /* Debug */,
+				C4C8FC4028D1295E0063C209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4C8FC4128D1295E0063C209 /* Build configuration list for PBXNativeTarget "navegarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4C8FC4228D1295E0063C209 /* Debug */,
+				C4C8FC4328D1295E0063C209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4C8FC4428D1295E0063C209 /* Build configuration list for PBXNativeTarget "navegarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4C8FC4528D1295E0063C209 /* Debug */,
+				C4C8FC4628D1295E0063C209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4C8FC0C28D1295D0063C209 /* Project object */;
+}
